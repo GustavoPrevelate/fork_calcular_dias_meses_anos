@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Date Difference Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+    <script src="app.js"></script>
+</head>
+<body>
+    <h1>Date Difference Calculator</h1>
+    <div class="container">
+        <label for="date1">Enter Date 1:</label>
+        <input type="date" id="date1">
+
+        <label for="date2">Enter Date 2:</label>
+        <input type="date" id="date2">
+
+        <button onclick="calculateDifference()">Calculate Difference</button>
+
+        <table id="resultTable">
+            <tr>
+                <th>Unit</th>
+                <th>Result</th>
+            </tr>
+            <tr>
+                <td>Days</td>
+                <td id="days"></td>
+            </tr>
+            <tr>
+                <td>Weeks</td>
+                <td id="weeks"></td>
+            </tr>
+            <tr>
+                <td>Months</td>
+                <td id="months"></td>
+            </tr>
+            <tr>
+                <td>Years</td>
+                <td id="years"></td>
+            </tr>
+        </table>
+    </div>
+
+</body>
+</html>
