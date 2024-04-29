@@ -12,3 +12,7 @@ function calculateDifference() {
     document.getElementById('months').innerText = monthsDiff;
     document.getElementById('years').innerText = yearsDiff;
 }
+
+function changeTitle() {
+    document.querySelector('h1').innerText = "Date Difference Calculator - Modified";
+}
