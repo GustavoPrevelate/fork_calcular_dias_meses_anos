@@ -20,3 +20,10 @@ function clearDisplay() {
     displayValue = '';
     document.getElementById('display').value = '';
 }
+
+
+// Alteração para criar conflito
+function appendValue(value) {
+    displayValue += value + " ";
+    document.getElementById('display').value = displayValue;
+}
