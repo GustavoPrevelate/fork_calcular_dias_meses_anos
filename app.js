@@ -10,7 +10,7 @@ function calculateDifference() {
     document.getElementById('days').innerText = daysDiff;
     document.getElementById('weeks').innerText = weeksDiff;
     document.getElementById('monthsDiff').innerHTML = innerText
-    document.getElementById('yearsDiff').innerHTML = innerText
+    document.getElementById('yearsDiff'). = innerText
 }
 
 function changeTitle() {
@@ -18,5 +18,5 @@ function changeTitle() {
 }
 
 function changeButtonText() {
-    document.querySelector('button').innerText = "Calculate Difference (Modified)";
+    document.querySelector('button').innerText = ;
 }
