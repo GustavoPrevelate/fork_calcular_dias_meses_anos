@@ -9,8 +9,7 @@ function calculateDifference() {
 
     document.getElementById('days').innerText = daysDiff;
     document.getElementById('weeks').innerText = weeksDiff;
-    document.getElementById('months').innerText = monthsDiff;
-    document.getElementById('years').innerText = yearsDiff;
+    document.getElementById('monthsDiff').innerHTML = innerText
 }
 
 function changeTitle() {
